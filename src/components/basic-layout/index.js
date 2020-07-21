@@ -130,7 +130,7 @@ class BasicLayout extends Component {
                                                 </Col>
                                                 <Col>
                                                     <Select placeholder="Category..." value={valueFilter.category} style={{ width: '100%' }} 
-                                                        onChange={(value) => this.filterData('category', value)}>
+                                                        onSelect={(value) => this.filterData('category', value)}>
                                                         {filterDefault.category.map(item =>
                                                             <Option key={item}>{item}</Option>
                                                         )}
@@ -145,7 +145,7 @@ class BasicLayout extends Component {
                                                 </Col>
                                                 <Col>
                                                     <Select placeholder="Product..." value={valueFilter.product} style={{ width: '100%' }} 
-                                                        onChange={(value) => this.filterData('product', value)}>
+                                                        onSelect={(value) => this.filterData('product', value)}>
                                                         {filterDefault.product.map(item =>
                                                             <Option key={item}>{item}</Option>
                                                         )}
@@ -160,7 +160,7 @@ class BasicLayout extends Component {
                                                 </Col>
                                                 <Col>
                                                     <Select placeholder="Brand..." value={valueFilter.brand} style={{ width: '100%' }} 
-                                                        onChange={(value) => this.filterData('brand', value)}>
+                                                        onSelect={(value) => this.filterData('brand', value)}>
                                                         {filterDefault.brand.map(item =>
                                                             <Option key={item}>{item}</Option>
                                                         )}

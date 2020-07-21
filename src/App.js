@@ -1,6 +1,6 @@
 import React from 'react';
 import BasicLayout from './components/basic-layout';
-import './App.css'
+import "antd/dist/antd.css";
 
 function App() {
   return (

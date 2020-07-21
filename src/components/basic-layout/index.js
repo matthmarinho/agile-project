@@ -14,21 +14,6 @@ const filterDefault = {
     brand: ['Brand 1', 'Brand 2', 'Brand 3', 'Brand 4'],
 }
 
-const allMonths = [
-    "Janeiro",
-    "Fevereiro",
-    "Março",
-    "Abril",
-    "Maio",
-    "Junho",
-    "Julho",
-    "Agosto",
-    "Setembro",
-    "Outubro",
-    "Novembro",
-    "Dezembro"
-];
-
 class BasicLayout extends Component {
     constructor(props) {
         super(props)
